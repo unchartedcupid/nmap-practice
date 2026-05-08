@@ -33,10 +33,25 @@ nmap -sV 192.168.1.1
 The -A flag runs OS dtection,version detection,script scanning and traceroute all at once:
 nmap -A 192.168.1.1
 ##step 7-finding vulnerabilities
-Nmap has a scripting engine called Nmap Scripting Engine(NSE) that can check for known vulnerabilities on services 
-
-
-
+Nmap has a scripting engine called Nmap Scripting Engine(NSE) that can check for known vulnerabilities on services,does not exploit anything just checks if vulnerabilities exist and reports them:
+#run all defaults scripts
+nmap -sC 192.168.1.1
+#scan specifically for vulnerabilities
+nmap --script vuln 192.168.1.1
+#combine version detection with scripts
+nmap -sV -sC 192.168.1.1
+##step 8-scan everything together
+This is most complete scan-all ports,all info,vulneraility check.It takes longer but gives you full picture:
+nmap -A -p- --script vuln 192.168.1.1
+###What I Have Learned So Far
+-How to find own ip adress and understand network
+-How to discover all devices connected to a network
+-How to find open ports on any device
+-How to detect what services and versions are running
+-How to identify my router and what it exposes
+-How to use Nmap scripts to check for vulnerabilities
+-The diffrence between a quiet scan and an aggresive scan
+###
 
 
 
