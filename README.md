@@ -51,8 +51,12 @@ nmap -A -p- --script vuln 192.168.1.1
 -How to identify my router and what it exposes
 -How to use Nmap scripts to check for vulnerabilities
 -The diffrence between a quiet scan and an aggresive scan
-###
-
+###What I Plan to Learn Next
+-Understanding CVEs(known vulnerabilities)in more depth
+-Using metasploit for exploitation in lab envirnoment
+-Setting up a home lab with virtual machines to practice safely
+###Disclaimer 
+All scans documented here were performed on my own personal network and devices strictly for educational purposes.Scanning networks without permission is illegal.Always get authorizatio before scanning any network you do not own.
 
 
 
