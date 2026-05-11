@@ -1,5 +1,6 @@
 # Nmap-practice
 i started learning cybersecurity and one of the first things i explored was how to find devices on a network and scan them using Nmap.This repo documents everything I learned from finding IP adresses all the way to detecting vulnerabilities on a network.i have not gone deep into exploiting yet but i understand what is running and why it matters.
+
 ##What is Nmap?
 Nmap(network mapper) is a free open source tool used to scan networks.It helps you discover devices ,find open ports,detect what services are running and even find potential vulnerabilities.It is widely used in cybersecurity for reconnaissance.
 ##step 1-finding your IP
